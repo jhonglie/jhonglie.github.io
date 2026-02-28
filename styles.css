@@ -1,73 +1,76 @@
-body{
+body {
     margin: 25px;
-   background: linear-gradient(to right, #000000, #282727);
-   background-repeat: no-repeat;
-   background-attachment: fixed;
+    background: linear-gradient(to right, #000000, #282727);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a:hover {
 
-    color: rgb(185, 183, 183); 
+    color: rgb(185, 183, 183);
 }
 
-div.header{
+div.header {
     color: white;
     text-align: left;
-    font-family: Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 15px;
 }
-nav{
-    border-style:outset;
+
+nav {
+    border-style: outset;
     border-color: rgb(255, 255, 255);
     border-width: 3px;
     border-radius: 5px;
     color: white;
     text-align: center;
-    font-family: Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 14px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-div.text{
+div.text {
     color: white;
     text-align: center;
-    font-family: Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 12px;
     font-style: italic;
     font-weight: lighter;
     margin-top: 10px;
 }
-div.normaltext{
+
+div.normaltext {
     color: white;
     text-align: center;
-    font-family: Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
     margin-top: 10px;
 }
 
-.profiles{
+.profiles {
     display: flex;
-    flex-wrap: wrap;      
-    justify-content: center; 
-    gap: 15px;           
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
     margin-top: 20px;
     position: relative;
     bottom: 18px;
 }
 
-.contactinfo{
+.contactinfo {
     display: flex-start;
-    flex-wrap: wrap;      
-    justify-content: center; 
-    gap: 15px;           
-    margin:80px,auto,auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 80px, auto, auto;
     position: relative;
-    top:80px;
-    
+    top: 80px;
+
 }
-#pfp1{
+
+#pfp1 {
     width: 80px;
     align-items: center;
     border: 4px solid white;
@@ -75,69 +78,74 @@ div.normaltext{
     margin-bottom: 60px;
     z-index: 2;
     position: relative;
+   
 }
-#jhongcontact{
+
+#jhongcontact {
     display: inline-block;
-    padding-top:15px;
+    padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 27px;
     padding-right: 10px;
     text-align: left;
-    font-family: Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
     background-color: white;
     color: black;
-    margin:10px;
+    margin: 10px;
     z-index: 1;
 
     border-style: solid;
-    border-radius:5px;
-    border-width: 2px ;
+    border-radius: 5px;
+    border-width: 2px;
     border-color: rgb(255, 255, 255);
 
     position: relative;
-    bottom: 225px;
-    left:50px;
+    bottom: 25px;
+    right:38px;
 }
 
 #pfp2 {
-width: 80px;
+    width: 80px;
     align-items: center;
     border: 4px solid white;
     border-radius: 50px;
     margin-bottom: 60px;
     z-index: 2;
     position: relative;
+ 
 }
-#meracontact{
+
+#meracontact {
     display: inline-block;
-    padding-top:15px;
+    padding-top: 15px;
     padding-bottom: 15px;
-    padding-left:30px;
-    padding-right:30px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: left;
-    font-family: Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
     background-color: white;
     color: black;
-    margin:10px;
+    margin: 10px;
     z-index: 1;
 
     border-style: solid;
-    border-radius:5px;
-    border-width: 2px ;
+    border-radius: 5px;
+    border-width: 2px;
     border-color: rgb(255, 255, 255);
 
     position: relative;
-    bottom: 167px;
-    left:45px;
+    top: 125px;
+    right: 332px;
 
 }
-div.contacttext{
+
+div.contacttext {
     display: flex;
     color: white;
     text-align: center;
-    font-family: Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: normal;
@@ -146,71 +154,92 @@ div.contacttext{
     color: black;
     position: relative;
     bottom: 65px;
-    
-    border-style:outset;
+
+    border-style: outset;
     border-radius: 10px;
     border-width: 2px solid black;
 }
 
-.pfp{
+.pfp {
     border-radius: 40px;
     border: 2px solid white;
     display: block;
     margin-left: auto;
-   
+
 }
+
 .pfp:hover {
-    animation: 0.3s ease running click ;
+    animation: 0.3s ease running click;
 }
-#pfp1:hover,#pfp2:hover {
-    animation: 0.3s ease running click ;
+
+#pfp1:hover,
+#pfp2:hover {
+    animation: 0.3s ease running click;
 }
-.photo{
+
+.photo {
     border-radius: 10px;
     border: 2px solid white;
-    width:100%;
-    max-width: 700px;    
-    display: block; 
+    width: 100%;
+    max-width: 700px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
 }
-div.video{
+
+div.video {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-video.vid2{
-    border-style:outset;
+
+video.vid2 {
+    border-style: outset;
     border-color: white;
     border-radius: 10px;
-    width:100%;
-    max-width: 700px;    
-    display: block; 
-}
-.video iframe{
-    border-style:outset;
-    border-color: white;
-    border-radius: 10px;
-    width:100%;
-    max-width: 700px;    
-    display: block; 
+    width: 100%;
+    max-width: 700px;
+    display: block;
 }
 
-#video1{
-    border-style:outset;
+.video iframe {
+    border-style: outset;
     border-color: white;
     border-radius: 10px;
-    width:100%;
-    max-width: 300px;    
-    display: block; 
-
-    position: relative;
-    left: 400px;
-    bottom: 400px;
+    width: 100%;
+    max-width: 700px;
+    display: block;
 }
+
+#video1 {
+    display: block;
+    border-style: outset;
+    border-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 30%;
+    margin-right:80px;
+    margin-top: 100px;
+}
+    div.content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+
 @keyframes click {
-    0% { transform: scale(1); }
-    50% { transform: scale(0.9); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
