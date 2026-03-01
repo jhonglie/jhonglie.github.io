@@ -71,13 +71,8 @@ div.normaltext {
 }
 
 #pfp1 {
-    width: 80px;
+    width: 350px;
     align-items: center;
-    border: 4px solid white;
-    border-radius: 50px;
-    margin-bottom: 60px;
-    z-index: 2;
-    position: relative;
    
 }
 
@@ -106,13 +101,8 @@ div.normaltext {
 }
 
 #pfp2 {
-    width: 80px;
+    width: 350px;
     align-items: center;
-    border: 4px solid white;
-    border-radius: 50px;
-    margin-bottom: 60px;
-    z-index: 2;
-    position: relative;
  
 }
 
@@ -240,7 +230,7 @@ video.vid2 {
     }
     div.audioexplain{
         display:flex;
-        justify-content: center;
+        justify-content: center
 
     }
 
@@ -257,7 +247,6 @@ video.vid2 {
         transform: scale(1);
     }
 }
-
 
 
 
