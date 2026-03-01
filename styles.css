@@ -187,6 +187,16 @@ div.contacttext {
     margin-right: auto;
     margin-top: 20px;
 }
+#placeimage {
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    position: relative;
+    bottom: 200px;
+
+}
 
 div.video {
     display: flex;
@@ -219,8 +229,10 @@ video.vid2 {
     border-radius: 10px;
     width: 700px;
     max-width: 100%;
-    margin-right:80px;
+    margin-left: auto;
+    margin-right: 500px;
     margin-top: 100px;
+    
 }
     div.content{
         display: flex;
@@ -243,3 +255,4 @@ video.vid2 {
         transform: scale(1);
     }
 }
+
