@@ -194,7 +194,7 @@ div.contacttext {
     max-width: 650px;
     display: block;
     position: relative;
-    bottom: 60px;
+    bottom: 60%;
 
 }
 
@@ -255,6 +255,7 @@ video.vid2 {
         transform: scale(1);
     }
 }
+
 
 
 
