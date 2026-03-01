@@ -238,6 +238,12 @@ video.vid2 {
         align-items: center;
 
     }
+    div.audioexplain{
+        display:flex;
+        justify-content: center;
+
+    }
+
 @keyframes click {
     0% {
         transform: scale(1);
@@ -251,7 +257,6 @@ video.vid2 {
         transform: scale(1);
     }
 }
-
 
 
 
